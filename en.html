@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nereye Vurdum · Privacy Policy</title>
+<meta name="description" content="Privacy policy of the Nereye Vurdum app: your data stays on your device.">
+<link rel="alternate" hreflang="tr" href="index.html">
+<style>
+  :root { --bg:#f6f7fb; --card:#fff; --text:#0f172a; --muted:#475569; --border:#e2e8f0; --primary:#2563eb; --soft:#dbeafe; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0b1120; --card:#151e30; --text:#e2e8f0; --muted:#a3b1c6; --border:#2a3850; --primary:#60a5fa; --soft:#1c3354; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; }
+  h1 { font-size: 1.7rem; margin: 0; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+  .muted { color: var(--muted); font-size: .95rem; }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px 18px; margin:16px 0; }
+  .highlight { background:var(--soft); border-color:transparent; }
+  a { color: var(--primary); }
+  .lang { font-weight:600; text-decoration:none; border:1px solid var(--border); border-radius:999px; padding:4px 12px; }
+  table { width:100%; border-collapse: collapse; font-size: .95rem; }
+  th, td { text-align:left; padding:8px 6px; border-bottom:1px solid var(--border); vertical-align: top; }
+  ul { padding-left: 1.2rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Nereye Vurdum · Privacy Policy</h1>
+    <a class="lang" href="index.html" hreflang="tr">Türkçe</a>
+  </header>
+  <p class="muted">Last updated: October 17, 2026</p>
+
+  <div class="card highlight">
+    <strong>In short:</strong> everything you enter in Nereye Vurdum (injection logs, doses, finger-prick
+    measurements, glucose values, notes, profile details) is stored <strong>only on your phone</strong>. There is no
+    account and no server; this data is never sent to us or anyone else. Anonymous usage statistics and crash reports
+    are <strong>off by default</strong> and are only sent if you turn them on.
+  </div>
+
+  <h2>1. What the app does</h2>
+  <p>Nereye Vurdum is a logging app that helps you rotate insulin injection sites and keep track of which finger
+  you used for finger-prick blood tests. <strong>It does not calculate or suggest doses and does not interpret
+  glucose values.</strong> It is not medical advice; consult your doctor about your treatment.</p>
+
+  <h2>2. Data stored on your device</h2>
+  <p>The following is kept, only as far as you enter it, in a private database inside the app on your phone:</p>
+  <ul>
+    <li>Injection logs: date and time, body site and point, insulin name/type, (optional) dose, tags and note.</li>
+    <li>Finger-prick measurements: date and time, finger and side, (optional) glucose value, timing tag and note.</li>
+    <li>Insulin and pen information (pen opening date, usable period).</li>
+    <li>Profile (all optional): name or nickname, gender, year of birth, diabetes type, year of diagnosis.</li>
+    <li>Settings and basal alarm times.</li>
+  </ul>
+  <p>This data is <strong>excluded</strong> from Android cloud backup and device-to-device transfer. Uninstalling
+  the app or using <em>Settings → Delete all data</em> removes all of it from the device.</p>
+
+  <h2>3. Optional: anonymous usage statistics and crash reports</h2>
+  <p>To improve the app, Google's Firebase Analytics and Firebase Crashlytics are used <strong>only if you give
+  explicit consent</strong> under <em>Settings → Privacy</em> (or in the first-launch dialog). Consent is off by
+  default and can be withdrawn at any time in the same place.</p>
+  <table>
+    <tr><th>May be sent (with consent)</th><th>Never sent</th></tr>
+    <tr>
+      <td>Which features are used (e.g. "log added", which body site or finger, whether a field is filled in),
+      app version, device model and OS, approximate country, a random app instance ID; if the app crashes, a
+      technical error record (stack trace).</td>
+      <td>Dose amounts, glucose values, measurement tags, notes, name, years of birth and diagnosis, alarm times,
+      exact time of a log, the name you gave an insulin. No advertising ID is used; no tracking.</td>
+    </tr>
+  </table>
+  <p>As there is no account, this information is not linked to your identity. Firebase data is processed on Google
+  servers (which may be outside your country) and kept according to Google's default retention (analytics events up
+  to 14 months, crash reports about 90 days). When you withdraw consent no new data is sent and crash reports still
+  waiting on the device are deleted. More: <a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase and privacy</a>.</p>
+
+  <h2>4. Notifications and permissions</h2>
+  <ul>
+    <li><strong>Notifications:</strong> pen reminders and the basal alarm are scheduled entirely on your phone; no push notifications are used.</li>
+    <li><strong>Alarms &amp; reminders / full-screen notifications:</strong> so the basal alarm rings on time and shows on the lock screen.</li>
+    <li><strong>Run at startup:</strong> to re-schedule alarms after the phone restarts.</li>
+    <li><strong>File picker:</strong> only when you choose to restore a backup, to read the file you select.</li>
+  </ul>
+
+  <h2>5. Files you export</h2>
+  <p>Backup (JSON), spreadsheet (CSV) and doctor report (PDF) files are created only when you ask and are sent,
+  through your phone's share sheet, to the destination you choose. These files contain health data; be careful
+  where you send them. Once shared, the file is subject to the terms of the service you sent it to.</p>
+
+  <h2>6. Children</h2>
+  <p>Users under 16 should use the app under the supervision of a parent or guardian. Optional statistics
+  consent for users under 16 should be given by a parent or guardian.</p>
+
+  <h2>7. Your rights</h2>
+  <p>You can exercise your rights under the GDPR and Turkish data protection law (KVKK). Because your personal
+  health data is only on your device, you manage it directly (view, edit, export, delete). For requests about the
+  optional statistics data, use the contact channel below.</p>
+
+  <h2>8. Changes</h2>
+  <p>If this policy changes, the current version is published on this page and the date above is updated.</p>
+
+  <h2>9. Contact</h2>
+  <p>Developer: GitHub user <a href="https://github.com/CagataySensatar">CagataySensatar</a>.
+  Questions and requests: <a href="https://github.com/CagataySensatar/nereye-vurdum-privacy/issues">the
+  "Issues" section of this page on GitHub</a>.</p>
+</main>
+</body>
+</html>

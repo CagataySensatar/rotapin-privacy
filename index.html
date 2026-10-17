@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nereye Vurdum · Gizlilik Politikası</title>
+<meta name="description" content="Nereye Vurdum uygulamasının gizlilik politikası: verileriniz yalnızca cihazınızda kalır.">
+<link rel="alternate" hreflang="en" href="en.html">
+<style>
+  :root { --bg:#f6f7fb; --card:#fff; --text:#0f172a; --muted:#475569; --border:#e2e8f0; --primary:#2563eb; --soft:#dbeafe; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0b1120; --card:#151e30; --text:#e2e8f0; --muted:#a3b1c6; --border:#2a3850; --primary:#60a5fa; --soft:#1c3354; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; }
+  h1 { font-size: 1.7rem; margin: 0; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); font-size: .95rem; }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px 18px; margin:16px 0; }
+  .highlight { background:var(--soft); border-color:transparent; }
+  a { color: var(--primary); }
+  .lang { font-weight:600; text-decoration:none; border:1px solid var(--border); border-radius:999px; padding:4px 12px; }
+  table { width:100%; border-collapse: collapse; font-size: .95rem; }
+  th, td { text-align:left; padding:8px 6px; border-bottom:1px solid var(--border); vertical-align: top; }
+  ul { padding-left: 1.2rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Nereye Vurdum · Gizlilik Politikası</h1>
+    <a class="lang" href="en.html" hreflang="en">English</a>
+  </header>
+  <p class="muted">Son güncelleme: 17 Ekim 2026</p>
+
+  <div class="card highlight">
+    <strong>Kısaca:</strong> Nereye Vurdum'a girdiğin her şey (enjeksiyon kayıtları, dozlar, parmak ucu ölçümleri,
+    şeker değerleri, notlar, profil bilgileri) <strong>yalnızca telefonunda</strong> saklanır. Hesap yoktur,
+    sunucumuz yoktur; bu veriler bize ya da başka birine gönderilmez. Anonim kullanım istatistiği ve çökme
+    raporları ise <strong>varsayılan olarak kapalıdır</strong> ve yalnızca sen açarsan gönderilir.
+  </div>
+
+  <h2>1. Uygulama ne yapar?</h2>
+  <p>Nereye Vurdum; insülin enjeksiyon bölgelerini dönüşümlü kullanmayı (rotasyon) ve parmak ucu kan ölçümü
+  yaptığın parmağı takip etmeye yardımcı olan bir kayıt uygulamasıdır. <strong>Doz hesaplamaz, doz önermez ve
+  şeker değerlerini yorumlamaz.</strong> Tıbbi tavsiye yerine geçmez; tedavin için doktoruna danış.</p>
+
+  <h2>2. Cihazında saklanan veriler</h2>
+  <p>Aşağıdakiler yalnızca senin girdiğin kadarıyla, telefonundaki uygulamaya özel bir veritabanında tutulur:</p>
+  <ul>
+    <li>Enjeksiyon kayıtları: tarih ve saat, vücut bölgesi ve nokta, insülin adı/türü, (isteğe bağlı) doz, etiketler ve not.</li>
+    <li>Parmak ucu ölçümleri: tarih ve saat, parmak ve yan yüzeyi, (isteğe bağlı) şeker değeri, ölçüm zamanı etiketi ve not.</li>
+    <li>İnsülin ve kalem bilgileri (kalem açılış tarihi, kullanım süresi).</li>
+    <li>Profil (hepsi isteğe bağlı): ad veya takma ad, cinsiyet, doğum yılı, diyabet tipi, tanı yılı.</li>
+    <li>Ayarlar ve bazal alarm saatleri.</li>
+  </ul>
+  <p>Bu veriler Android'in bulut yedeklemesine ve cihazdan cihaza aktarımına <strong>dahil edilmez</strong>.
+  Uygulamayı silmek ya da <em>Ayarlar → Tüm verileri sil</em> bu verilerin tamamını cihazdan kaldırır.</p>
+
+  <h2>3. İsteğe bağlı: anonim kullanım istatistiği ve çökme raporları</h2>
+  <p>Uygulamayı geliştirmek için, yalnızca <em>Ayarlar → Gizlilik</em> bölümünden (veya ilk açılıştaki pencereden)
+  açık izin verirsen, Google'ın Firebase Analytics ve Firebase Crashlytics hizmetleri kullanılır. İzin varsayılan
+  olarak kapalıdır ve istediğin an aynı yerden geri alınabilir.</p>
+  <table>
+    <tr><th>Gönderilebilenler (izinle)</th><th>Hiçbir zaman gönderilmeyenler</th></tr>
+    <tr>
+      <td>Hangi özelliğin kullanıldığı (ör. "kayıt eklendi", hangi vücut bölgesi veya parmak, bir alanın dolu olup olmadığı),
+      uygulama sürümü, cihaz modeli ve işletim sistemi, yaklaşık ülke, rastgele bir uygulama örnek kimliği;
+      uygulama çökerse teknik hata kaydı (yığın izi).</td>
+      <td>Doz miktarı, şeker değeri, ölçüm etiketi, notlar, ad, doğum ve tanı yılı, alarm saatleri, kaydın tam zamanı,
+      insüline verdiğin ad. Reklam kimliği kullanılmaz; izleme (tracking) yapılmaz.</td>
+    </tr>
+  </table>
+  <p>Hesap olmadığı için bu bilgiler kimliğinle ilişkilendirilmez. Firebase verileri Google sunucularında
+  (Türkiye dışında olabilir) işlenir; Google'ın varsayılan saklama sürelerine göre tutulur (analitik olayları en fazla
+  14 ay, çökme raporları yaklaşık 90 gün). İzni geri aldığında yeni veri gönderilmez ve cihazda bekleyen çökme
+  raporları silinir. Ayrıntı: <a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase ve gizlilik</a>.</p>
+
+  <h2>4. Bildirimler ve izinler</h2>
+  <ul>
+    <li><strong>Bildirimler:</strong> kalem hatırlatıcıları ve bazal alarmı tamamen telefonunda kurulur; uzaktan bildirim (push) kullanılmaz.</li>
+    <li><strong>Alarmlar ve hatırlatıcılar / tam ekran bildirimler:</strong> bazal alarmının tam saatinde çalması ve kilit ekranında görünmesi için.</li>
+    <li><strong>Açılışta çalıştırma:</strong> telefon yeniden başladığında alarmların yeniden kurulması için.</li>
+    <li><strong>Dosya seçme:</strong> yalnızca sen bir yedek dosyasını geri yüklemek istediğinde, seçtiğin dosyayı okumak için.</li>
+  </ul>
+
+  <h2>5. Dışa aktardığın dosyalar</h2>
+  <p>Yedek (JSON), tablo (CSV) ve doktor raporu (PDF) dosyaları yalnızca sen istediğinde oluşturulur ve telefonunun
+  paylaşım ekranıyla senin seçtiğin yere gönderilir. Bu dosyalar sağlık verisi içerir; nereye gönderdiğine dikkat et.
+  Paylaştıktan sonra o dosyanın güvenliği, gönderdiğin hizmetin koşullarına tabidir.</p>
+
+  <h2>6. Çocuklar</h2>
+  <p>16 yaşından küçükler uygulamayı ebeveyn veya vasi gözetiminde kullanmalıdır. İsteğe bağlı istatistik
+  iznini 16 yaşından küçükler adına ebeveyn veya vasi vermelidir.</p>
+
+  <h2>7. Hakların</h2>
+  <p>KVKK (6698 sayılı Kanun) ve GDPR kapsamındaki haklarını kullanabilirsin. Kişisel sağlık verilerin yalnızca
+  cihazında olduğundan bunları doğrudan sen yönetirsin (görüntüleme, düzenleme, dışa aktarma, silme). İsteğe bağlı
+  istatistik verileriyle ilgili taleplerin için aşağıdaki iletişim kanalını kullanabilirsin.</p>
+
+  <h2>8. Değişiklikler</h2>
+  <p>Bu politika değişirse güncel hâli bu sayfada yayımlanır ve yukarıdaki tarih güncellenir.</p>
+
+  <h2>9. İletişim</h2>
+  <p>Geliştirici: GitHub kullanıcısı <a href="https://github.com/CagataySensatar">CagataySensatar</a>.
+  Sorular ve talepler için: <a href="https://github.com/CagataySensatar/nereye-vurdum-privacy/issues">bu sayfanın
+  GitHub "Issues" bölümü</a>.</p>
+</main>
+</body>
+</html>
