@@ -61,13 +61,14 @@
 
   <h2>3. Optional: anonymous usage statistics and crash reports</h2>
   <p>To improve the app, Google's Firebase Analytics and Firebase Crashlytics are used <strong>only if you give
-  explicit consent</strong> under <em>Settings → Privacy</em> (or in the first-launch dialog). Consent is off by
-  default and can be withdrawn at any time in the same place.</p>
+  explicit consent</strong>. On first launch the app asks <em>“Help us improve Rotapin”</em>; both choices are equal
+  and neither is preselected. If you don't allow it, nothing is sent. You can change your choice at any time under
+  <em>Settings → Privacy</em>.</p>
   <table>
     <tr><th>May be sent (with consent)</th><th>Never sent</th></tr>
     <tr>
       <td>Which features are used (e.g. "log added", which body site or finger, whether a field is filled in),
-      app version, device model and OS, approximate country, a random app instance ID; if the app crashes, a
+      app version, device model and OS, approximate location (city and country level; Google derives it from the IP address of the connection, the IP address is not stored and not shown to us), a random app instance ID; if the app crashes, a
       technical error record (stack trace).</td>
       <td>Dose amounts, glucose values, measurement tags, notes, name, years of birth and diagnosis, alarm times,
       exact time of a log, the name you gave an insulin. No advertising ID is used; no tracking.</td>

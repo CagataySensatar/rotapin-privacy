@@ -61,14 +61,15 @@
   Uygulamayı silmek ya da <em>Ayarlar → Tüm verileri sil</em> bu verilerin tamamını cihazdan kaldırır.</p>
 
   <h2>3. İsteğe bağlı: anonim kullanım istatistiği ve çökme raporları</h2>
-  <p>Uygulamayı geliştirmek için, yalnızca <em>Ayarlar → Gizlilik</em> bölümünden (veya ilk açılıştaki pencereden)
-  açık izin verirsen, Google'ın Firebase Analytics ve Firebase Crashlytics hizmetleri kullanılır. İzin varsayılan
-  olarak kapalıdır ve istediğin an aynı yerden geri alınabilir.</p>
+  <p>Uygulamayı geliştirmek için, yalnızca açık izin verirsen Google'ın Firebase Analytics ve Firebase Crashlytics
+  hizmetleri kullanılır. Uygulama ilk açılışta <em>“Uygulamayı geliştirmemize yardım et”</em> sorusuyla iznini ister;
+  iki seçenek eşittir ve hiçbiri önceden seçili değildir. İzin vermezsen hiçbir şey gönderilmez. Kararını istediğin an
+  <em>Ayarlar → Gizlilik</em> bölümünden değiştirebilirsin.</p>
   <table>
     <tr><th>Gönderilebilenler (izinle)</th><th>Hiçbir zaman gönderilmeyenler</th></tr>
     <tr>
       <td>Hangi özelliğin kullanıldığı (ör. "kayıt eklendi", hangi vücut bölgesi veya parmak, bir alanın dolu olup olmadığı),
-      uygulama sürümü, cihaz modeli ve işletim sistemi, yaklaşık ülke, rastgele bir uygulama örnek kimliği;
+      uygulama sürümü, cihaz modeli ve işletim sistemi, yaklaşık konum (şehir ve ülke düzeyinde; Google bunu bağlantının IP adresinden çıkarır, IP adresi saklanmaz ve bize gösterilmez), rastgele bir uygulama örnek kimliği;
       uygulama çökerse teknik hata kaydı (yığın izi).</td>
       <td>Doz miktarı, şeker değeri, ölçüm etiketi, notlar, ad, doğum ve tanı yılı, alarm saatleri, kaydın tam zamanı,
       insüline verdiğin ad. Reklam kimliği kullanılmaz; izleme (tracking) yapılmaz.</td>
